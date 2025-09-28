@@ -1,0 +1,150 @@
+.app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 13px;
+}
+
+.button-cadastro {
+    --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
+    --accent: rgb(21, 255, 0);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    cursor: pointer;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+        letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+}
+
+.button-cadastro:hover {
+    box-shadow: var(--hover-shadows);
+}
+
+.button-cadastro:active {
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+}
+
+form {
+    background-color: #212121;
+    width: 600px;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.alert {
+    color: rgb(184, 45, 45);
+}
+
+form div input {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 7px;
+    border: unset;
+    resize: none;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+textarea {
+    height: 7rem;
+    padding: 14px 2rem;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    row-gap: 15px;
+    height: 6rem;
+    margin-top: 14px;
+}
+
+.button-save {
+    background-color: #303030;
+    color: white;
+    width: 100%;
+    border: unset;
+    border-radius: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.button-save:hover {
+    background-color: green;
+}
+
+.button-end {
+    background-color: white;
+    color: black;
+    width: 100%;
+    border: unset;
+    border-radius: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.button-end:hover {
+    background-color: red;
+    color: white;
+
+}
+
+article+article {
+    margin-top: 2rem;
+}
+
+.cardContainer {
+    background-color: #212121;
+    max-width: 600px;
+    min-width: 600px;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.cardContainer header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardContainer h2 {
+    text-align: left;
+}
+
+.cardContainer p {
+    margin-top: 1rem;
+}
+
+.cardContainer .buttonsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+}

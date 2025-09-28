@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "Teste1",
+      "description": "Teste1",
+      "content": "Teste1",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "EcoShopper",
+      "description": "Assistente de compras sustentável que ajuda o usuário a escolher produtos com menor impacto ambiental.",
+      "content": "EcoShopper analisa códigos de barras e listas de ingredientes para classificar produtos por pegada ecológica e ética, sugere alternativas locais e marcas com certificações, e calcula economias e emissões evitadas ao longo do tempo. Inclui funcionalidades: scanner de produto, histórico de compras sustentáveis, comparador de marcas, mapa com lojas e mercados locais parceiros e dicas de reciclagem por produto."
+    },
+    {
+      "id": "3",
+      "title": "StudyBuddy",
+      "description": "Plataforma de estudo gamificada para estudantes que querem organizar rotina, revisar conteúdos e acompanhar progresso.",
+      "content": "StudyBuddy permite criar cronogramas de estudo com técnicas como Pomodoro e repetição espaçada (SRS), gerar flashcards automaticamente a partir de PDFs e anotações, e transformar metas em missões com recompensas digitais. Recursos: criação de planos por disciplina, criação automática de resumos (bullet points), jogos de revisão em pares, integração com calendários e relatórios de produtividade com insights semanais."
+    },
+    {
+      "id": "4",
+      "title": "tessss",
+      "description": "ssssssss",
+      "content": "ssss"
+    },
+    {
+      "id": "5d75",
+      "title": "12213123312",
+      "description": "12213123312",
+      "content": "12213123312"
+    }
+  ]
+}
